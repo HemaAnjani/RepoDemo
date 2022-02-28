@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="adrs" class="ExampleSpring.Address">
+<property name="city" value="HYD"/>
+<property name="state" value="Telangana"/>
+<property name="zipcode" value="220000"/>
+</bean>
+
+
+<bean id="emp1" class="ExampleSpring.EmployeeAddress">
+<property name="eid" value="111"/>
+<property name="ename" value="Hema"/>
+<constructor-arg ref="adrs"/>
+</bean>
+
+</beans>
