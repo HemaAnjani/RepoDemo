@@ -5,7 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 		
 
-		public class Client {
+		public class ClientAddress {
 				public static void main(String args[]) {
 //					
 //					EmployeeAddress ea=new EmployeeAddress(); //general java code
