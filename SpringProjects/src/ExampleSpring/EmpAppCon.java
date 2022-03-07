@@ -19,10 +19,10 @@ public class EmpAppCon {
 	ApplicationContext context=new ClassPathXmlApplicationContext("EmployeeBean.xml");
 	Employee e1=(Employee)context.getBean("emp1");
 	Employee e2=(Employee)context.getBean("emp2");
-	Employee e3=(Employee)context.getBean("emp3");
+	Employee e3=(Employee)context.getBean("emp2");
 	
-	System.out.println(e1);
-	System.out.println(e2);
-	System.out.println(e3);
+	System.out.println(e1.hashCode());
+	System.out.println(e2.hashCode());
+	System.out.println(e3.hashCode());
 		}
 }

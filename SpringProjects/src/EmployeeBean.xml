@@ -5,7 +5,7 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<bean id="emp1" class="ExampleSpring.Employee">
+<bean id="emp1" class="ExampleSpring.Employee" scope="prototype">
 <property name="eid" value="111"/>
 <property name="ename" value="Hema"/>
 <property name="esalary" value="330000"/>
