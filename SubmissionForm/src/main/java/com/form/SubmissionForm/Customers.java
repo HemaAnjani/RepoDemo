@@ -5,7 +5,7 @@ import javax.persistence.Id;
 
 @Entity
 public class Customers {
-	 @Id
+@Id
 private int cid;
 private String cname;
 private String cemail;
